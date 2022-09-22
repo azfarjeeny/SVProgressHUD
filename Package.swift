@@ -19,7 +19,6 @@ let package = Package(
               "SVProgressHUD.m",
               "SVRadialGradientLayer.m"
             ],
-            publicHeadersPath: "Include",
             cSettings: [
               .headerSearchPath("."),
             ]
