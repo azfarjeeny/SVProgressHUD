@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -13,6 +13,7 @@ let package = Package(
         .target(
             name: "SVProgressHUD",
             path: "SVProgressHUD/Sources/SVProgressHUD",
+            resources: [.copy("SVProgressHUD.bundle")],
             publicHeadersPath: "Headers"
         )
     ]
