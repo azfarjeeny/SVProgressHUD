@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.0
 import PackageDescription
 
 let package = Package(
@@ -12,11 +12,8 @@ let package = Package(
     targets: [
         .target(
             name: "SVProgressHUD",
-            path: "SVProgressHUD",
-            publicHeadersPath: "Include",
-            cSettings: [
-              .headerSearchPath("."),
-            ]
+            path: "SVProgressHUD/Sources/SVProgressHUD",
+            publicHeadersPath: "Headers"
         )
     ]
 )
