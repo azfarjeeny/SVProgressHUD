@@ -13,7 +13,7 @@ let package = Package(
         .target(
             name: "SVProgressHUD",
             path: "SVProgressHUD",
-            resources: [.process("SVProgressHUD.bundle")],
+            resources: [.copy("SVProgressHUD.bundle")],
             publicHeadersPath: "Include",
             cSettings: [
               .headerSearchPath("."),
