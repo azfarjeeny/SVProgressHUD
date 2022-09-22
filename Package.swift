@@ -13,6 +13,12 @@ let package = Package(
         .target(
             name: "SVProgressHUD",
             path: "SVProgressHUD",
+            sources: [
+              "SVIndefinteAnimatedView.m",
+              "SVProgressAnimatedView.m",
+              "SVProgressHUD.m",
+              "SVRadialGradientLayer.m"
+            ],
             publicHeadersPath: "Include",
             cSettings: [
               .headerSearchPath("."),
